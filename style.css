@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+.section-one {
+    font-family: 'Rubik', sans-serif;
+    height: 500px;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-left: 172px;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.head {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    margin-right: 172px;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.card-img-container {
+    width: 880px;
+    margin: auto;
+    display: flex;
+
+}
+
+.left-card {
+    width: 440px;
+    height: 250px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-card p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.main-img {
+    width: 440px;
+    background-color: #797e8a;
+}
+
+.button-one {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 30px;
+    width: 100px;
+}
+
+.section-two {
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-two img {
+    border: solid #3882f6;
+    width: 140px;
+    height: 140px;
+
+}
+
+.figures {
+    display: flex;
+    gap: 50px;
+
+}
+
+.fig-one,
+.fig-two,
+.fig-three,
+.fig-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+}
+
+figcaption {
+    text-align: center;
+    width: 140px;
+
+}
+
+.section-three {
+    height: 360px;
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+.section-four {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.signup-section {
+    height: 120px;
+    width: 1000px;
+    background-color: #3882f6;
+    display: flex;
+
+}
+
+h3 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.footer {
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+}
