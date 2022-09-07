@@ -3,7 +3,7 @@
 }
 
 .section-one {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 500px;
     background-color: #1f2937;
     display: flex;
@@ -36,9 +36,8 @@ a {
 
 .card-img-container {
     width: 880px;
-    margin: auto;
     display: flex;
-
+    margin: auto;
 }
 
 .left-card {
@@ -52,23 +51,29 @@ a {
 .left-card p {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 8px;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
-    margin: 0;
+    margin: 0px;
 }
 
 .main-img {
     width: 440px;
+    height: 250px;
     background-color: #797e8a;
 }
 
 .button-one {
     background-color: #3882f6;
+    border-color: #3882f6;
+    border-style: solid;
     color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 7px;
     height: 30px;
     width: 100px;
 }
@@ -81,12 +86,15 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 40px;
 }
 
 .section-two img {
-    border: solid #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
     width: 140px;
     height: 140px;
 
@@ -95,7 +103,6 @@ h2 {
 .figures {
     display: flex;
     gap: 50px;
-
 }
 
 .fig-one,
@@ -106,19 +113,41 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-
 }
 
 figcaption {
     text-align: center;
     width: 140px;
-
 }
 
 .section-three {
     height: 360px;
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
+}
+
+.section-three p {
+    color: #1f2937;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-bottom: 0px;
+}
+
+.thor {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
 }
 
 .section-four {
@@ -126,21 +155,42 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .signup-section {
     height: 120px;
-    width: 1000px;
+    width: 900px;
+    color: #f9faf8;
     background-color: #3882f6;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 7px;
     display: flex;
-
+    justify-content: space-around;
+    align-items: center;
 }
 
 h3 {
-    color: #f9faf8;
+
     font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.section-four p {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.button-two {
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-style: solid;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 6px;
+    height: 30px;
+    width: 100px;
 }
 
 .footer {
